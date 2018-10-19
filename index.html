@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html>
+<head>
+<style type="text/css">
+
+
+
+</style>
+
+</head>
+
+<body>
+<!-- Form has attributes like action and method this makes a submit button work after a from is submitted and this required for backend code for submit to be successful -->
+<form action="Do something" method="post">
+
+ <!--Text Box -->
+Username: <input type="text" name="username"  size ="10" maxlength="5" value="name" />
+<br />
+
+<!-- Radio Button -->
+Male: <input type="radio" name="sex" value="male" /> <!-- Giving values are required for javascript to know what is selected for the backend code -->
+Female: <input type="radio" name="sex" value="female" />
+<br />
+
+<!-- Check Box -->
+<p> Select the foods </p> 
+Bacon: <input type="checkbox" name="food" value="bacon" />
+Ham: <input type="checkbox" name="food" value="ham" />
+Tuna: <input type="checkbox" name="food" value="tuna" />
+Beef: <input type="checkbox" name="food" value="beef" />
+<br />
+
+<!-- Select drop down List -->
+<p> Select Fruits </p>
+<select name="Fruit"> 
+<option value="apple"> Apple </option>
+<option value="kiwi"> kiwi </option>
+<option value="pineapple"> pineapple </option>
+</select>
+<br />
+<br />
+
+<!-- Text Area, Text area is composed of rows and columns, these attrribute are used for changing the height and width of text area -->
+Tell about yourself:
+<br />
+<textarea name="bio" rows="8" cols="40">
+Type something here
+</textarea>
+<br />
+<!-- Password field -->
+Password: <input type="password" name="pword" />
+
+<!-- File upload -->
+<p> File Input </p>
+Upload File: <input type="file" name="myfile" />
+<br />
+<br />
+
+<!-- Submit Button -->
+Submit here: <input type="submit" name="Submit" />
+
+</form> 
+
+</body>
+
+</html>
